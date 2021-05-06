@@ -1,0 +1,57 @@
+$borderRadius: 30px;
+$boxShadow: 5px 10px 8px #888888;
+
+body {
+    background: #c3cfe2;
+}
+
+.deel1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 440px;
+    margin-left: 20px;
+}
+
+.head {
+    background-color: #fff;
+    text-align: left;
+    line-height: 2.4em;
+    border-top-left-radius: $borderRadius;
+    border-top-right-radius: $borderRadius;
+    box-shadow: $boxShadow;
+    .head__text {
+        padding: 40px;
+        font-size: 22px;
+        color: rgb(105, 101, 101);
+    }
+}
+
+.profile-picture {
+    width: 130px;
+    border: 7px solid #fff;
+    border-radius: 200px;
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: -80px;
+    margin-left: 145px;
+}
+
+.foot {
+    background-color: #686de0;
+    text-align: center;
+    border-bottom-left-radius: $borderRadius;
+    border-bottom-right-radius: $borderRadius;
+    box-shadow: $boxShadow;
+    margin-top: -20px;
+    .foot__title {
+        color:#fff;
+        font-size: 19px;
+        letter-spacing: 0.2em;
+        padding-top: 85px;
+    }
+    .foot__sub-title {
+        color: #9d9fcf;
+        font-size: 18px;
+        margin-top: -10px;
+        padding-bottom: 40px;
+    }
+}
